@@ -10,10 +10,11 @@ import {
   Text,
   Inset,
 } from "@radix-ui/themes";
+import { SignInButton } from "@clerk/clerk-react";
 
-export default function DiscoverList({ left = [], right = [], onSelect }) {
+export default function DiscoverList({ left = [], right = [], onSelect, isSignedIn }) {
   const { t } = useTranslation("common");
-
+  
   const PER_COLUMN = 3;
 
   const totalPages = Math.max(
@@ -78,75 +79,95 @@ export default function DiscoverList({ left = [], right = [], onSelect }) {
       <div className="mt-10 sm:mt-12">
         <Grid columns={{ initial: "2", md: "2" }} gap={{ initial: "6", sm: "8" }}>
           <Flex direction="column" gap="4">
-            {leftPage.map((item) => (
-              <Card
-                key={item.key}
-                role="button"
-                tabIndex={0}
-                onClick={() => runItem(item)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    runItem(item);
-                  }
-                }}
-                variant="surface"
-                size="2"
-                className="cursor-pointer transition hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 rounded-[var(--radius-4)]"
-              >
-                <Flex align="center" gap="4">
-                  <Inset side="all" clip="padding-box">
-                    <img
-                      src={item.src}
-                      alt={item.title}
-                      className="h-16 w-16 rounded-[var(--radius-4)] object-cover ring-1 ring-white/10"
-                      loading="lazy"
-                      draggable={false}
-                    />
-                  </Inset>
+            {leftPage.map((item) => {
+              const content = (
+                <Card
+                  key={item.key}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => runItem(item)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      runItem(item);
+                    }
+                  }}
+                  variant="surface"
+                  size="2"
+                  className="cursor-pointer transition hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 rounded-[var(--radius-4)]"
+                >
+                  <Flex align="center" gap="4">
+                    <Inset side="all" clip="padding-box">
+                      <img
+                        src={item.src}
+                        alt={item.title}
+                        className="h-16 w-16 rounded-[var(--radius-4)] object-cover ring-1 ring-white/10"
+                        loading="lazy"
+                        draggable={false}
+                      />
+                    </Inset>
 
-                  <Text size="4" weight="medium" className="text-white/85 leading-relaxed">
-                    {item.title}
-                  </Text>
-                </Flex>
-              </Card>
-            ))}
+                    <Text size="4" weight="medium" className="text-white/85 leading-relaxed">
+                      {item.title}
+                    </Text>
+                  </Flex>
+                </Card>
+              );
+
+              return isSignedIn ? (
+                <React.Fragment key={item.key}>{content}</React.Fragment>
+              ) : (
+                <SignInButton mode="modal" key={item.key}>
+                  <div>{content}</div>
+                </SignInButton>
+              );
+            })}
           </Flex>
 
           <Flex direction="column" gap="4">
-            {rightPage.map((item) => (
-              <Card
-                key={item.key}
-                role="button"
-                tabIndex={0}
-                onClick={() => runItem(item)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    e.preventDefault();
-                    runItem(item);
-                  }
-                }}
-                variant="surface"
-                size="2"
-                className="cursor-pointer transition hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 rounded-[var(--radius-4)]"
-              >
-                <Flex align="center" gap="4">
-                  <Inset side="all" clip="padding-box">
-                    <img
-                      src={item.src}
-                      alt={item.title}
-                      className="h-16 w-16 rounded-[var(--radius-4)] object-cover ring-1 ring-white/10"
-                      loading="lazy"
-                      draggable={false}
-                    />
-                  </Inset>
+            {rightPage.map((item) => {
+              const content = (
+                <Card
+                  key={item.key}
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => runItem(item)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      runItem(item);
+                    }
+                  }}
+                  variant="surface"
+                  size="2"
+                  className="cursor-pointer transition hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/30 rounded-[var(--radius-4)]"
+                >
+                  <Flex align="center" gap="4">
+                    <Inset side="all" clip="padding-box">
+                      <img
+                        src={item.src}
+                        alt={item.title}
+                        className="h-16 w-16 rounded-[var(--radius-4)] object-cover ring-1 ring-white/10"
+                        loading="lazy"
+                        draggable={false}
+                      />
+                    </Inset>
 
-                  <Text size="4" weight="medium" className="text-white/85 leading-relaxed">
-                    {item.title}
-                  </Text>
-                </Flex>
-              </Card>
-            ))}
+                    <Text size="4" weight="medium" className="text-white/85 leading-relaxed">
+                      {item.title}
+                    </Text>
+                  </Flex>
+                </Card>
+              );
+
+              return isSignedIn ? (
+                <React.Fragment key={item.key}>{content}</React.Fragment>
+              ) : (
+                <SignInButton mode="modal" key={item.key}>
+                  <div>{content}</div>
+                </SignInButton>
+              );
+            })}
           </Flex>
         </Grid>
       </div>

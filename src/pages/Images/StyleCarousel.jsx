@@ -3,8 +3,9 @@ import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Heading, IconButton, Card, Text, Inset } from "@radix-ui/themes";
 import * as ScrollArea from "@radix-ui/react-scroll-area";
+import { SignInButton } from "@clerk/clerk-react";
 
-export default function StyleCarousel({ items = [], onSelect }) {
+export default function StyleCarousel({ items = [], onSelect, isSignedIn }) {
   const { t } = useTranslation("common");
   const viewportRef = React.useRef(null);
 
@@ -55,8 +56,8 @@ export default function StyleCarousel({ items = [], onSelect }) {
             ref={viewportRef}
             className="no-scrollbar flex gap-6 pb-3 overflow-x-auto"
           >
-            {items.map((card) => (
-              <div key={card.key} className="w-[160px] sm:w-[190px] shrink-0">
+            {items.map((card) => {
+              const content = (
                 <Card
                   role="button"
                   tabIndex={0}
@@ -83,12 +84,24 @@ export default function StyleCarousel({ items = [], onSelect }) {
                     </div>
                   </Inset>
                 </Card>
+              );
 
-                <Text as="div" size="2" className="mt-3 text-center text-white/70">
-                  {t(`images.styles.${card.key}`, card.title)}
-                </Text>
-              </div>
-            ))}
+              return (
+                <div key={card.key} className="w-[160px] sm:w-[190px] shrink-0">
+                  {isSignedIn ? (
+                    content
+                  ) : (
+                    <SignInButton mode="modal">
+                      <div>{content}</div>
+                    </SignInButton>
+                  )}
+
+                  <Text as="div" size="2" className="mt-3 text-center text-white/70">
+                    {t(`images.styles.${card.key}`, card.title)}
+                  </Text>
+                </div>
+              );
+            })}
           </ScrollArea.Viewport>
 
           {/* ✅ Radix scrollbar оставляем */}

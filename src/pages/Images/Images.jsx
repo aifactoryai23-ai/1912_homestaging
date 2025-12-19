@@ -1,9 +1,8 @@
 // src/pages/Images/Images.jsx
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import { Heading } from "@radix-ui/themes";
-
 import { useToast } from "@/components/ui/use-toast";
 import { useUser, useAuth } from "@clerk/clerk-react";
 
@@ -32,6 +31,10 @@ function ImagesPageInner() {
   const { toast } = useToast();
   const { user: clerkUser } = useUser();
   const { getToken } = useAuth();
+
+  const [pendingPreset, setPendingPreset] = useState(null);
+  const [pendingPrompt, setPendingPrompt] = useState("");
+  const [promptValue, setPromptValue] = useState("");
 
   const { selectedPreset, setSelectedPreset } = useSelectedPreset();
 
@@ -65,13 +68,37 @@ function ImagesPageInner() {
   });
 
   const openPreset = (preset) => {
-    setSelectedPreset(preset);
+    const prompt =
+      preset?.prompt ||
+      preset?.title ||
+      preset?.label ||
+      preset?.name ||
+      "";
+
+    setPendingPreset(preset || null);
+    setPendingPrompt(prompt);
+    setPromptValue(prompt);
+    setSelectedPreset(preset || null);
+    setUploadOpen(true);
+  };
+
+  const handlePromptSubmit = () => {
+    const prompt = promptValue.trim();
+    if (!prompt) return;
+
+    const inlinePreset = { key: "custom", prompt };
+    setPendingPreset(inlinePreset);
+    setPendingPrompt(prompt);
+    setSelectedPreset(inlinePreset);
     setUploadOpen(true);
   };
 
   const startOver = () => {
     resetFlow();
     setSelectedPreset(null);
+    setPendingPreset(null);
+    setPendingPrompt("");
+    setPromptValue("");
   };
 
   return (
@@ -87,9 +114,13 @@ function ImagesPageInner() {
         />
       </Helmet>
 
-      <div className="images-page">
+      <div className="images-page text-white">
         <section className="relative -mx-4 sm:-mx-6 lg:-mx-8">
-          <div className="relative min-h-[calc(100vh-var(--app-header-h,7rem))] overflow-hidden">
+          <div className="relative min-h-[calc(100vh-var(--app-header-h,7rem))] overflow-hidden bg-gradient-to-br from-[#4a2b72] via-[#2a1a3f] to-[#7a4a1f]">
+            <div className="pointer-events-none absolute inset-0">
+              <div className="absolute inset-0 bg-white/5" />
+            </div>
+
             <div className="relative mx-auto max-w-6xl px-6 pt-8 pb-16 sm:pb-20">
               {stage === "browse" && (
                 <>
@@ -98,11 +129,20 @@ function ImagesPageInner() {
                   </Heading>
 
                   <div className="mt-8">
-                    <PromptBar />
+                    <PromptBar
+                      value={promptValue}
+                      onChange={setPromptValue}
+                      onSubmit={handlePromptSubmit}
+                      isSignedIn={Boolean(clerkUser)}
+                    />
                   </div>
 
                   <div className="mt-14">
-                    <StyleCarousel items={STYLE_ITEMS} onSelect={openPreset} />
+                    <StyleCarousel
+                      items={STYLE_ITEMS}
+                      onSelect={openPreset}
+                      isSignedIn={Boolean(clerkUser)}
+                    />
                   </div>
 
                   <div className="mt-14">
@@ -110,19 +150,20 @@ function ImagesPageInner() {
                       left={DISCOVER_LEFT}
                       right={DISCOVER_RIGHT}
                       onSelect={openPreset}
+                      isSignedIn={Boolean(clerkUser)}
                     />
                   </div>
 
                   <UploadZoneImages
                     open={uploadOpen}
                     onOpenChange={setUploadOpen}
-                    preset={selectedPreset}
-                    defaultPrompt={selectedPreset?.prompt || ""}
+                    preset={pendingPreset || selectedPreset}
+                    defaultPrompt={pendingPrompt || selectedPreset?.prompt || ""}
                     onGenerate={onGenerate}
                   />
 
                   {busy && (
-                    <div className="mt-6 text-sm text-white/60">
+                    <div className="mt-6 text-sm text-white/70">
                       {t("images.ui.busy", "Working...")}
                     </div>
                   )}
