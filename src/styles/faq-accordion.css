@@ -1,0 +1,121 @@
+/* src/styles/faq-accordion.css */
+
+.faq-shell {
+  display: flex;
+  justify-content: center;
+}
+
+/* Контейнер аккордеона */
+.morphing-disclosure {
+  width: 100%;
+  max-width: 640px;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  transform-style: preserve-3d;
+}
+
+/* Общий вид блока */
+.morphing-disclosure details {
+  position: relative;
+  background: #020617; /* slate-950 */
+  color: #f9fafb;
+  border-inline: 1px solid #1f2937;
+  transition:
+    border-radius 180ms ease,
+    margin 180ms ease,
+    background-color 180ms ease,
+    transform 180ms ease,
+    translate 180ms ease,
+    opacity 180ms ease;
+}
+
+/* Разделительные линии */
+[data-style="border"][data-bordered="true"] .morphing-disclosure details {
+  border-block-end: 1px solid #1f2937;
+}
+
+.morphing-disclosure details:first-of-type {
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.morphing-disclosure details:last-of-type {
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+/* Ховер */
+.morphing-disclosure details:hover {
+  background: #020617;
+}
+
+/* Шапка */
+.morphing-disclosure summary {
+  padding: 0.9rem 1.1rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.9rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+
+.morphing-disclosure summary::-webkit-details-marker {
+  display: none;
+}
+
+.morphing-disclosure .faq-index {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #9ca3af;
+}
+
+.morphing-disclosure .faq-question {
+  font-weight: 500;
+}
+
+.morphing-disclosure .faq-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.75;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.morphing-disclosure details[open] .faq-icon {
+  transform: rotate(45deg);
+  opacity: 1;
+}
+
+/* Контент */
+.morphing-disclosure .content {
+  padding: 0 1.1rem 0.85rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(0.5rem);
+  filter: blur(4px);
+  color: #d1d5db;
+  transition:
+    max-height 220ms ease,
+    opacity 220ms ease,
+    transform 220ms ease,
+    filter 220ms ease;
+}
+
+.morphing-disclosure details[open] .content {
+  max-height: 240px; /* достаточно для коротких ответов */
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* Небольшой “мёрджинг” при открытии */
+[data-translate="true"] .morphing-disclosure details[open] {
+  margin-block: 0.5rem;
+  border-radius: 0.75rem;
+}
+
+[data-highlight="true"] .morphing-disclosure details[open] {
+  border-color: #4b5563;
+}
