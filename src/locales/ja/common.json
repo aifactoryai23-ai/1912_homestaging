@@ -1,0 +1,202 @@
+{
+  "loading": "読み込み中…",
+  "languageSwitcher": {
+    "label": "言語",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어"
+  },
+  "buttons": {
+    "tryForFree": "無料で試す",
+    "viewExamples": "例を見る",
+    "chat": "チャット",
+    "showSuccessToast": "🟢 成功トーストを表示",
+    "showErrorToast": "🔴 エラートーストを表示",
+    "download": "ダウンロード",
+    "regenerate": "再生成",
+    "close": "閉じる",
+    "cancel": "キャンセル",
+    "signIn": "サインイン"
+  },
+  "layout": {
+    "tagline": "数秒でプロのステージング",
+    "nav": {
+      "home": "ホーム",
+      "transform": "変換",
+      "gallery": "ギャラリー",
+      "pricing": "料金",
+      "api": "API"
+    },
+    "footer": {
+      "description": "どんな物件写真も数秒でプロ品質のステージング画像に変換します。",
+      "product": "プロダクト",
+      "company": "会社情報",
+      "transform": "写真を変換",
+      "gallery": "ギャラリー",
+      "pricing": "料金",
+      "api": "APIアクセス",
+      "contact": "お問い合わせ",
+      "upgrade": "Proにアップグレード",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約",
+      "rights": "© {{year}} HomeDesignPro - インテリアAIアプリ. All rights reserved."
+    }
+  },
+  "beforeAfter": {
+    "drag": "スライダーをドラッグして比較",
+    "after": "✨ アフター（AIステージング）",
+    "before": "📸 ビフォー",
+    "swipe": "👆 左右にスワイプして比較"
+  },
+  "toastTest": {
+    "title": "トーストテストページ",
+    "successTitle": "✅ 成功トースト",
+    "successMessage": "すべて正常に動作しています！",
+    "errorTitle": "❌ エラートースト",
+    "errorMessage": "問題が発生しました。"
+  },
+  "pricing": {
+    "label": "// 料金",
+    "title": "あなたに合ったプランを選ぶ",
+    "subtitle": "他社が注意を奪う中、私たちはあなたの時間を守ります。",
+    "billing": {
+      "monthly": "月額",
+      "yearly": "年額"
+    },
+    "badge": "人気",
+    "button": "今すぐアップグレード →",
+    "plans": {
+      "monthly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 個人",
+          "price": "$4.99",
+          "period": "月",
+          "description": "個人デザイナーやエージェントに最適",
+          "icon": "crown",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "月25回のAI変換", "highlight": true },
+            { "text": "プレミアムテンプレート" },
+            { "text": "HD画質" },
+            { "text": "優先サポート" },
+            { "text": "リアルなインテリア生成" },
+            { "text": "オリジナルのデザインプロンプトが入力可能" },
+            { "text": "商用利用ライセンス付き" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro エージェンシー",
+          "price": "$30",
+          "period": "月",
+          "description": "エージェンシー・プロ向け",
+          "icon": "zap",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "月200回のAI変換", "highlight": true },
+            { "text": "チームコラボレーション" },
+            { "text": "専任サクセスマネージャー" },
+            { "text": "API & ホワイトレーベル" },
+            { "text": "✍️ デザインを編集" },
+            { "text": "🎭 バーチャルステージング" },
+            { "text": "♻️ インテリアの高画質化" },
+            { "text": "🎨 壁の色をペイント" },
+            { "text": "💡 ライティングの変更" },
+            { "text": "👱‍♀️ 人物の追加" },
+            { "text": "🔍 Google Lens 連携" },
+            { "text": "🪑 家具の追加・削除" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro アルティメット",
+          "price": "$120",
+          "period": "月",
+          "description": "大規模プロジェクト向け",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "月1000回のAI変換", "highlight": true },
+            { "text": "自動化ツール" },
+            { "text": "新機能の先行アクセス" },
+            { "text": "拡張API & ホワイトレーベル" },
+            { "text": "フォトリアルなインテリア生成" },
+            { "text": "Pro エージェンシーの全機能を含む" },
+            { "text": "🍪 専用レンダリングサーバー" }
+          ]
+        }
+      ],
+      "yearly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro 個人",
+          "price": "$49",
+          "period": "年",
+          "description": "年額なら20%お得",
+          "icon": "crown",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "年300回のAI変換", "highlight": true },
+            { "text": "プレミアムテンプレート" },
+            { "text": "HD画質" },
+            { "text": "優先サポート" },
+            { "text": "リアルなインテリア生成" },
+            { "text": "オリジナルのデザインプロンプトが入力可能" },
+            { "text": "商用利用ライセンス付き" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro エージェンシー",
+          "price": "$299",
+          "period": "年",
+          "description": "忙しいチームに最適",
+          "icon": "zap",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "年2400回のAI変換", "highlight": true },
+            { "text": "チームコラボレーション" },
+            { "text": "専任サクセスマネージャー" },
+            { "text": "API & ホワイトレーベル" },
+            { "text": "✍️ デザインを編集" },
+            { "text": "🎭 バーチャルステージング" },
+            { "text": "♻️ インテリアの高画質化" },
+            { "text": "🎨 壁の色をペイント" },
+            { "text": "💡 ライティングの変更" },
+            { "text": "👱‍♀️ 人物の追加" },
+            { "text": "🔍 Google Lens 連携" },
+            { "text": "🪑 家具の追加" }
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro アルティメット",
+          "price": "$1300",
+          "period": "年",
+          "description": "大規模プロジェクト向け",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "年12000回のAI変換", "highlight": true },
+            { "text": "自動化ツール" },
+            { "text": "新機能の先行アクセス" },
+            { "text": "拡張API & ホワイトレーベル" },
+            { "text": "フォトリアルなインテリア生成" },
+            { "text": "Pro Agency" },
+            { "text": "🍪 専用レンダリングサーバー" }
+          ]
+        }
+      ]
+    }
+  }
+}

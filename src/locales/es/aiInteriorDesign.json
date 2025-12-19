@@ -1,0 +1,84 @@
+{
+  "seo": {
+    "title": "Diseño de interiores con IA — Rediseña cualquier habitación desde una foto en segundos",
+    "description": "Transforma cualquier habitación con diseño de interiores con IA. Sube una foto, elige un estilo y obtén rediseños al instante.",
+    "ogTitle": "Diseño de interiores con IA — Rediseña cualquier habitación en segundos",
+    "ogDescription": "Sube una foto y rediseña tu espacio al instante con IA. Moderno, minimalista, escandinavo, lujo y más."
+  },
+  "hero": {
+    "title": "Diseño de interiores con IA — Sube una foto y rediseña cualquier habitación al instante",
+    "payoff": "Transforma tu habitación en segundos con inteligencia artificial. Sube una foto, elige entre 50+ estilos y obtén rediseños fotorrealistas de inmediato.",
+    "cta": "🎨 Empezar mi rediseño con IA",
+    "note": "Incluye 2 créditos gratis. Sin tarjeta."
+  },
+  "heroImage": {
+    "alt": "Sala de estar de lujo — vista panorámica"
+  },
+  "value": {
+    "title": "¿Por qué elegir diseño de interiores con IA?",
+    "p1": "La IA genera conceptos frescos y profesionales para cualquier habitación. Rápido, preciso y sorprendentemente realista — sin diseñador.",
+    "p2": "Perfecto para staging, reformas, Airbnb o inspiración creativa.",
+    "long": "La app HomeDesignPro genera conceptos de diseño profesionales adaptados a cualquier habitación de tu hogar o de un espacio comercial. Ya sea redecorar el salón, reformar la cocina o diseñar una oficina completa, la IA ofrece visualizaciones rápidas, precisas y muy realistas — sin necesidad de un diseñador tradicional.\n\nHomeDesignPro te ahorra tiempo y dinero al darte inspiración instantánea y planes accionables. Es ideal para propietarios, agentes inmobiliarios que hacen staging, anfitriones de Airbnb que quieren atraer más huéspedes y profesionales creativos que buscan ideas innovadoras.\n\nVisualiza los cambios antes de empezar la obra, reduce errores costosos y acelera la toma de decisiones. Con HomeDesignPro AI, transformar tu espacio es más fácil y accesible que nunca."
+  },
+  "cards": {
+    "sketchAlt": "Boceto",
+    "bohemianAlt": "Bohemio",
+    "modernAlt": "Moderno",
+    "modernBohoAlt": "Boho moderno"
+  },
+  "whatIs": {
+    "title": "¿Qué es el diseño de interiores con IA?",
+    "p1": "La IA rediseña cualquier habitación a partir de una sola foto, entendiendo distribución, iluminación, geometría y decoración.",
+    "perfectFor": "Perfecto para:",
+    "list": ["Propietarios", "Inquilinos", "Agentes inmobiliarios", "Anfitriones de Airbnb", "Planificadores de reformas"],
+    "p2": "Ideas rápidas y realistas — al instante."
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "steps": [
+      "1. Sube una foto de la habitación",
+      "2. Elige tu estilo",
+      "3. La IA genera diseños realistas",
+      "4. Descarga o vuelve a generar"
+    ],
+    "cta": "Pruébalo ahora — 2 créditos gratis"
+  },
+  "beforeAfter": {
+    "title": "Ejemplos Antes y Después",
+    "description": "Habitaciones reales transformadas con IA.",
+    "livingRoom": {
+      "title": "Transformación del salón",
+      "description": "Un espacio vacío convertido en una zona moderna y acogedora."
+    },
+    "bedroom": {
+      "title": "Rediseño del dormitorio",
+      "description": "Una habitación básica transformada en un dormitorio de lujo."
+    },
+    "lobby": {
+      "title": "Recibidor / despeje",
+      "description": "Un pasillo lleno de objetos personales convertido en un rincón limpio y vacío."
+    }
+  },
+  "testimonials": {
+    "title": "Lo que dice la gente",
+    "items": [
+      {
+        "role": "Agente inmobiliario",
+        "text": "“Mis anuncios empezaron a venderse más rápido con staging con IA. HomeDesignPro crea imágenes realistas y atractivas que ayudan a visualizar el potencial del espacio.”"
+      },
+      {
+        "role": "Propietario",
+        "text": "“¡Rediseñé mi salón en minutos! La app es intuitiva y divertida — probé decenas de estilos sin mover muebles.”"
+      },
+      {
+        "role": "Anfitrión de Airbnb",
+        "text": "“Subieron las reservas casi al instante. Las fotos con staging generado por IA hicieron que mi anuncio se viera mucho más atractivo.”"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Rediseña tu habitación con IA hoy",
+    "description": "Sube una foto y explora posibilidades de diseño ilimitadas.",
+    "button": "🎨 Empezar a rediseñar ahora"
+  }
+}

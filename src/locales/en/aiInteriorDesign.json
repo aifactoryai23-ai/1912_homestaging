@@ -1,0 +1,90 @@
+{
+  "seo": {
+    "title": "AI Interior Design — Redesign Any Room from a Photo in Seconds",
+    "description": "Transform any room using AI interior design. Upload a photo, choose a style, and get instant redesigns in seconds.",
+    "ogTitle": "AI Interior Design — Redesign Any Room in Seconds",
+    "ogDescription": "Upload a photo and instantly redesign your space using AI. Modern, minimalist, Scandinavian, luxury styles and more."
+  },
+  "hero": {
+    "title": "AI Interior Design — Upload a Photo & Redesign Any Room Instantly",
+    "payoff": "Transform your room in seconds using artificial intelligence. Upload a photo, choose from 50+ styles, and get photorealistic redesigns instantly.",
+    "cta": "🎨 Start Your AI Redesign Now",
+    "note": "2 Free credits included. No card required."
+  },
+  "heroImage": {
+    "alt": "Luxury living-room - Wide View"
+  },
+  "value": {
+    "title": "Why Choose AI Interior Design?",
+    "p1": "AI generates fresh, professional design concepts for any room. Fast, precise, and surprisingly realistic — no designer required.",
+    "p2": "Perfect for staging, remodeling, Airbnb, or creative inspiration.",
+    "long": "HomeDesignPro app generates fresh, professional design concepts tailored for any room in your home or commercial property. Whether you're redecorating a living room, remodeling a kitchen, or designing an entire office, AI delivers fast, precise, and surprisingly realistic visualizations — all without the need for a traditional interior designer. HomeDesignPro saves you time and money by providing instant inspiration and actionable plans. It's perfect for homeowners looking to refresh their space, real estate agents staging properties, Airbnb hosts wanting to attract more guests with appealing interiors, and creative professionals seeking innovative design ideas. Experience seamless remodeling and decoration by visualizing changes before the work even begins, reducing costly mistakes and accelerating decision-making. With HomeDesignPro AI, transforming your space has never been easier or more accessible."
+  },
+  "cards": {
+    "sketchAlt": "Sketch",
+    "bohemianAlt": "Bohemian",
+    "modernAlt": "Modern",
+    "modernBohoAlt": "Modern Boho"
+  },
+  "whatIs": {
+    "title": "What Is AI Interior Design?",
+    "p1": "AI redesigns any room from a single uploaded photo, understanding layout, lighting, geometry, and décor.",
+    "perfectFor": "Perfect for:",
+    "list": [
+      "Homeowners",
+      "Renters",
+      "Real estate agents",
+      "Airbnb hosts",
+      "Renovation planners"
+    ],
+    "p2": "Fast, realistic design ideas — instantly."
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "steps": [
+      "1. Upload a room photo",
+      "2. Choose your style",
+      "3. AI generates realistic designs",
+      "4. Download or regenerate"
+    ],
+    "cta": "Try It Now — 2 Free Credits"
+  },
+  "beforeAfter": {
+    "title": "Before & After Examples",
+    "description": "Real rooms transformed using AI.",
+    "livingRoom": {
+      "title": "Living Room Transformation",
+      "description": "Empty space turned into modern living area"
+    },
+    "bedroom": {
+      "title": "Bedroom Redesign",
+      "description": "Basic room transformed into luxury bedroom"
+    },
+    "lobby": {
+      "title": "Lobby / Hall decluttering",
+      "description": "Hall full of personal items turned into empty corner"
+    }
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "items": [
+      {
+        "role": "Real Estate Agent",
+        "text": "\"My listings started selling faster with AI staging. HomeDesignPro creates realistic, appealing images that help buyers visualize the potential of a space.\""
+      },
+      {
+        "role": "Homeowner",
+        "text": "\"I redesigned my living room in minutes! The app is intuitive and fun — I tested dozens of styles without moving any furniture.\""
+      },
+      {
+        "role": "Airbnb Host",
+        "text": "\"My booking rate increased instantly. AI-made staged photos made my listing look much more inviting.\""
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Redesign Your Room with AI Today",
+    "description": "Upload a photo and explore unlimited design possibilities.",
+    "button": "🎨 Start Redesigning Now"
+  }
+}

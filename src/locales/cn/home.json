@@ -1,0 +1,312 @@
+{
+  "meta": {
+    "title": "AI 家居布景应用 | 通过虚拟设计更快出售和出租房产",
+    "description": "面向个人卖家、Airbnb 房东和 DIY 房主的 AI 家居布景应用。即时优化房产照片、去除杂物，打造令人惊艳的房产视觉，助你更快出售或出租。",
+    "keywords": "AI 家居布景, 虚拟布景, 房地产照片优化, 房产照片 AI, 房源优化, Airbnb 照片提升, DIY 卖房, 更快卖房",
+    "ogTitle": "AI 家居布景应用 | 更快出售与出租",
+    "ogDescription": "用 AI 改造房产照片。去除杂乱、提升光线，几秒内完成虚拟布景。",
+    "ogImage": "https://homedesignpro.ai/homedesignpro_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "重新设计房产，",
+    "titleHighlight": "更快售出，节省时间",
+    "description": "几秒钟内将任何室内或室外照片变成惊艳的专业房源。无需装修，无需设计师费用，尽享 AI 家居布景。",
+    "freeTransformations": "2 次免费转换",
+    "noCardRequired": "在不到一分钟内获得您的首次房产改图"
+  },
+  "benefits": {
+    "title": "专业布景应用。一键布置，一周成交",
+    "subtitle": "<mark>专业布景，无需等待也无需额外花费</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "即刻点亮你的房源",
+        "description": "瞬间把凌乱的房间变成杂志级房源 — 无需设计师。"
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "AI 魔法棒",
+        "description": "自动去除杂物、增强光线，只需一键即可重新设计任何房间。"
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "更快卖出房屋",
+        "description": "不再苦等数月 — 布景后的房屋成交速度提升 40%。"
+      }
+    ]
+  },
+  "priceList": {
+    "title": "价目表",
+    "subtitle": "<mark>献给还未使用 HomeDesignPro 应用的人</mark>",
+    "items": [
+      {
+        "id": "ai",
+        "text": "AI 全程搞定 .......... $5",
+        "extra": "+ 你拥有更多时间"
+      },
+      {
+        "id": "yourself",
+        "text": "自己布景 ................. $500",
+        "extra": "+ 压力"
+      },
+      {
+        "id": "designer1",
+        "text": "请设计师布景 ................... $1500"
+      },
+      {
+        "id": "designerWait",
+        "text": "请设计师，等待周期 ........ $2500"
+      },
+      {
+        "id": "designerDisagree",
+        "text": "请设计师，你们意见不合 ..... $4000"
+      },
+      {
+        "id": "redesign",
+        "text": "反馈后再次改版 ..... $6000",
+        "extra": "+ 眼泪"
+      },
+      {
+        "id": "again",
+        "text": "一遍又一遍重新来过 ..... $8000",
+        "extra": "+ 眼泪"
+      }
+    ]
+  },
+
+  "trainingExample": {
+    "title": "拍一张照片，用 AI 在几秒内重新设计你的室内空间"
+  },
+
+  
+    "videoFeature": {
+      "title": "将空白空间变成惊艳的室内空间",
+      "paragraph1": "从一间完全空的房间或尚未完工的施工空间开始，看 HomeDesignPro.ai 如何一步步将其改造。",
+      "paragraph2": "添加壁纸、地板、家具、灯光甚至人物，让空间真正“活”起来。从空荡的墙面，到完整布置、有人气的室内效果。最后还可以生成像这样的一段前后对比视频！"
+    
+  },
+
+    "sketchFeature": {
+    "title": "将你的草图和 SketchUp 模型转换为照片级真实渲染图",
+    "paragraph1": "使用 HomeDesignPro 应用，你可以将简单的室内设计草图快速转换为照片级真实感渲染图。只需大致勾画出房间草图，上传到 HomeDesignPro AI，大约 20 秒后，你就能得到一张逼真的效果图，展示它在现实中的样子。使用这些由 AI 生成的室内渲染图向客户展示方案，帮助他们更直观地想象并批准你的设计。",
+    "paragraph2": "HomeDesignPro AI 同样适用于 SketchUp。只要对基础的 SketchUp 线框图或 3D 模型截一张屏，选择 SketchUp 模式，应用就会将其转换为高分辨率的照片级渲染图。这样，你的 SketchUp 设计就能在几秒钟内看起来像真实的室内照片。"
+  },
+
+  "perfectFor": {
+    "title": "适合人群",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "自行出售房屋的业主",
+        "desc1": "<mark>轻松为线上房源准备房屋照片</mark> — 无需中介，也不用昂贵布景。",
+        "desc2": "上传你的照片，描述想要的改变，让 AI 立即清理杂物、提亮并重新布置房间。"
+      },
+      {
+        "id": "marketplaces",
+        "title": "房地产平台上的 DIY 卖家",
+        "desc1": "让你的房源在成千上万条信息中脱颖而出。",
+        "desc2": "即使自己卖房，<mark>AI 虚拟布景也能把普通照片变成专业的杂志级图片</mark>。"
+      },
+      {
+        "id": "rentals",
+        "title": "短租房东（Airbnb、Booking、Hotels、Cian、Avito、Trivago、Expedia、Agoda）",
+        "desc1": "用惊艳的布景照片获得更多预订。",
+        "desc2": "<mark>AI 布景会清理杂乱、提亮并美化室内</mark> — 让你的房源看起来温馨、有吸引力、随时迎客。"
+      },
+      {
+        "id": "movingFamilies",
+        "title": "准备搬家的家庭",
+        "desc1": "在搬家前展示你家的全部潜力。",
+        "desc2": "无论房间空置还是堆满纸箱，<mark>AI 布景都能虚拟摆放家具并装饰</mark>，帮助买家想象入住后的模样。"
+      },
+      {
+        "id": "afterRenovation",
+        "title": "装修或重新装饰后的房主",
+        "desc1": "用专业布景的视觉效果展示你的装修成果。",
+        "desc2": "使用 AI <mark>以不同风格呈现空间</mark> —— 如北欧、现代或极简 —— 让房源照片熠熠生辉。"
+      },
+      {
+        "id": "detailedDesigner",
+        "title": "最具细节的 AI 室内设计师",
+        "desc1": "<mark>Interior AI 借助最新的生成式 AI 技术，打造细节极其丰富的室内设计</mark>。",
+        "desc2": "我们持续优化 AI 模型，让效果更加逼真、生动。"
+      }
+    ]
+  },
+
+  
+  "gardenStagingSection": {
+    "title": "AI 花园设计：为房地产创建景观和户外空间设计",
+  
+    "block1": {
+      "intro": "HomeDesignPro 帮助您使用人工智能重新设计户外空间，并为空置的房屋进行虚拟布置。只需上传您的花园、庭院或客厅照片，即可在几秒钟内生成专业的设计或全家具的室内效果。\n\n使用 HomeDesignPro，您可以通过一张照片设计花园、后院和户外生活空间。上传户外区域照片，选择户外设计模式，HomeDesignPro 将生成新的景观设计，包括植物、花卉、树木、小径和休息区。\n\nAI 户外设计师可帮助您在花费真实植物和材料前，直观地了解后院改造、露台或小花园设计方案。"
+    },
+  
+    "block2": {
+      "title": "AI 虚拟家居布置：为空置房屋和房产列表打造吸引力",
+      "intro": "AI 虚拟布置可让空房在房地产照片中看起来完全布置好并可立即入住。与空置房相比，虚拟布置的房屋销售速度快 87%，售价高约 15%。平均而言，这意味着卖家可多赚约 7 万美元，或房产经纪人每笔交易多获得约 3500 美元佣金。\n\n每年销售约 10 套房产的经纪人，通过虚拟布置可额外赚取约 3.5 万美元。使用 HomeDesignPro 专业版，每年仅需 299 美元即可每月创建多达 1000 间虚拟布置的房间，是提升房源照片质量并提高转化率的高性价比方案。"
+    }
+  },
+
+
+  "aiInteriorDesignerSection": {
+    "title": "高精细 AI 室内设计师，打造逼真的房间和家居效果",
+    "description": "HomeDesignPro 是一款先进的 AI 室内设计工具，可以生成高度细致、逼真的房间和家居设计效果图。借助最新的高分辨率 AI 图像生成技术，它帮助你快速可视化家居灵感、测试不同布局，并为任何空间尝试多种风格——而且我们不断优化算法，让设计效果越来越好。",
+    "cards": {
+      "sketch1": "室内整体视图",
+      "sketch2": "拉近构图细节",
+      "sketch3": "聚焦装饰细节",
+      "sketch4": "观察每一个细节"
+    }
+  },
+
+
+  "styles": {
+    "title": "选择你的风格",
+    "subtitle": "从现代极简到温馨舒适 — 打造最符合房源的风格。",
+    "note": "摄影：四张同列来自 Nicole Franzen —— 她真的很棒！",
+    "items": [
+      { "id": "modern", "name": "现代" },
+      { "id": "scandinavian", "name": "北欧" },
+      { "id": "minimal", "name": "极简" },
+      { "id": "cozy", "name": "温馨" }
+    ]
+  },
+
+
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "id": "how-it-works",
+        "question": "HomeDesignPro AI 的室内设计师是如何工作的？",
+        "answer": "HomeDesignPro AI 是一款在线 AI 室内设计工具，可以把一张照片变成一整套房间改造方案。\n\n你只需上传当前房间的照片，选择房间类型（客厅、卧室、厨房等）和喜欢的室内风格。我们的 AI 会分析空间、布局和光线，大约在 15 秒内，根据你的偏好生成多张逼真的室内改造效果图。\n\n你可以在任何电脑、平板或手机上使用该服务，在不聘请传统室内设计师、也不花费数千美元的前提下获得专业级的设计灵感。注册后，你将解锁 HomeDesignPro AI Studio，其中包含 30+ 房间类型和 50+ 种室内设计风格。"
+      },
+      {
+        "id": "design-modes",
+        "question": "HomeDesignPro AI 的不同设计模式是如何工作的？",
+        "answer": "HomeDesignPro AI 提供多种设计模式，每种模式都针对不同场景进行了优化：\n\n- 3D 视觉室内设计（Interior Design with 3D Vision）：保留房间现有结构（墙体、窗户、主要家具），主要改变风格、颜色和装饰，非常适合制作真实的“前后对比”效果。\n- 室内设计（2D Photo）：与 3D 模式类似，但允许 AI 更自由地调整空间。可以改变家具摆放位置和部分布局元素，不严格受限于当前 3D 物体。\n- Virtual Staging AI 虚拟布置：专门用于给空房间添加家具。非常适合房产中介、Airbnb 房东以及需要快速虚拟布置的开发商。\n- Freestyle 自由模式：无需上传照片。AI 会根据你选择的房间类型和风格，从零开始生成室内设计方案。\n- Sketch2Image 草图转效果图：将手绘或数字室内草图转换为细致、逼真的渲染图。\n- SketchUp 模式：上传你的 SketchUp 模型截图，AI 会将其转换成高质量、真实感强的室内渲染图。"
+      },
+      {
+        "id": "virtual-staging",
+        "question": "我可以使用 HomeDesignPro AI 对房源进行虚拟布置吗？",
+        "answer": "可以。HomeDesignPro AI 内置专门的 Virtual Staging AI 模式，用于房产虚拟布置和空房间可视化。\n\n上传一张未配家具或只配了一部分家具的房间照片，选择房间类型和想要的室内风格，然后在 Mode 下拉菜单中选择 Virtual Staging AI 并点击 Create。系统会保留现有的建筑结构（墙体、窗户、地板），并自动添加合适的家具、装饰和灯光。"
+      },
+      {
+        "id": "payment-not-accepted",
+        "question": "为什么注册时我的付款方式会被拒绝？",
+        "answer": "如果你在订阅 HomeDesignPro AI 时付款被拒，大多数情况下与安全校验有关。建议按以下步骤检查：\n\n1. 关闭当前使用的 VPN 或代理，然后重试。\n2. 确认持卡人姓名、CVC/CVV 安全码以及邮政编码与银行预留信息完全一致。\n3. 银行卡的发行国家必须与你的账单国家一致。\n4. 确保银行卡已启用 3D Secure（或类似验证方式），并完成弹出的所有验证步骤。\n\n这些措施有助于防止欺诈行为，保护所有用户的支付安全。"
+      },
+      {
+        "id": "photo-types",
+        "question": "我应该上传哪种类型的室内照片？",
+        "answer": "为了获得最佳的 AI 室内设计效果，请遵循以下拍摄建议：\n\n- 从正面角度拍摄，镜头对准房间的主要墙面、窗户或视觉焦点。\n- 避免极端角度或过高、过低的视角。斜拍也可以使用，但正面照片通常效果更好。\n- 确保照片清晰，对焦准确，光线充足（自然日光通常最佳）。\n- 尽量拍下整个房间或大部分区域，而不是只拍家具特写。\n\n输入照片越好，HomeDesignPro AI 生成的效果图就越准确、越逼真。"
+      },
+      {
+        "id": "photo-formats",
+        "question": "HomeDesignPro AI 支持哪些照片文件格式？",
+        "answer": "目前 HomeDesignPro AI 支持以下图片格式：\n\n- JPG / JPEG\n- PNG\n- WebP\n- AVIF\n\n暂不支持 HEIC 格式（iPhone 常用格式）。如果你的图片为 HEIC，请先转换为 JPG 或 PNG 再上传。在 macOS 上，可以右键点击文件 → Quick Actions → Convert Image → 选择 JPG 来完成转换."
+      },
+      {
+        "id": "generation-time",
+        "question": "生成一套 AI 室内设计需要多长时间？",
+        "answer": "在当前的处理速度下，从点击 Create 开始，HomeDesignPro AI 通常会在大约 15 秒内生成一套新的室内设计方案。"
+      },
+      {
+        "id": "photo-usage",
+        "question": "你们会如何使用我的室内照片？",
+        "answer": "我们只会使用你的照片来为你的帐号生成 AI 室内设计图像。\n\n- 我们不会使用你的图片来训练我们的模型。\n- 你的照片和生成的效果图是私密的，只能在你的帐号中由你本人查看。\n- 你的数据会被安全存储，并受到防止未经授权访问的保护。\n\n简而言之：你的图片只用于在 HomeDesignPro AI 中生成你的设计，不会被分享或在其他地方重复使用。"
+      },
+      {
+        "id": "who-built",
+        "question": "谁创建了 HomeDesignPro AI，这个项目背后是谁？",
+        "answer": "HomeDesignPro AI 由机器学习工程师兼创业者 Georgiy Avaliani（@geoava）创建。平台由他独立开发和维护，没有庞大的企业团队——基本上是他在笔记本电脑上工作，后台则有大量基于 AI 的自动化流程在协助运行。"
+      },
+      {
+        "id": "match-current-interior",
+        "question": "AI 生成的改造效果能多大程度贴近我真实的房子和结构？",
+        "answer": "HomeDesignPro AI 与你真实室内环境的相似度主要取决于：\n\n1. 照片质量：清晰、高分辨率且光线良好的照片，可以帮助 AI 更好地理解房间的比例、材质和布局。\n2. 所选设计模式：有些模式更偏向创意尝试，有些则更偏向真实还原。\n\n例如，Creative 模式（在可用的地方）会提供更大胆、更有想象力的方案，可能不会严格遵照真实建筑结构；而 3D 视觉室内设计模式会更贴近现有的建筑结构和主要元素，主要更新风格、配色和装饰。\n\n我们会持续改进模型，让 AI 房间改造变得越来越精确、越来越真实。"
+      },
+      {
+        "id": "artifacts",
+        "question": "AI 室内设计效果图中会不会有瑕疵或视觉错误？",
+        "answer": "有时会有。所有使用生成式图像 AI 的应用，都有可能产生视觉瑕疵。根据输入照片和设计模式不同，你可能偶尔会看到：\n\n- 家具比例怪异（例如椅子腿数不对等）。\n- 阴影或反射中出现一些小的不一致。\n- 某些结构细节与真实环境略有偏差。\n\n从我们的经验来看，大约 90% 的渲染结果已经足够日常使用，约 10% 的作品效果非常出色。\n\nHomeDesignPro AI 还内置了图像编辑器，你可以用画笔擦除瑕疵并重新生成特定区域。我们也在不断改进，比如自动检测问题区域并局部重新渲染。但系统目前还不完美，我们也不会声称已经完美无缺。"
+      },
+      {
+        "id": "payment-secure",
+        "question": "你们的支付处理是否安全？",
+        "answer": "是的。HomeDesignPro AI 使用 BOG 和 Tochka 这两家区域领先的金融机构来处理所有交易。\n\n- 我们不会在自有服务器上存储你的完整银行卡信息。\n- 这些银行提供银行级加密和安全标准。\n- 所有卡片数据都由银行直接处理，并遵循严格的行业规范（例如 PCI DSS）。\n\n这些措施可以最大程度保障你的支付安全，并保护你的账单信息。"
+      },
+      {
+        "id": "payment-methods",
+        "question": "你们接受哪些支付方式？",
+        "answer": "你可以使用大多数主流信用卡和借记卡支付 HomeDesignPro AI，包括：\n\n- MasterCard\n- VISA\n- MIR\n- American Express\n\n我们目前不接受加密货币，也暂时没有添加加密货币支付的计划。"
+      },
+      {
+        "id": "refund",
+        "question": "可以退款吗？",
+        "answer": "很遗憾，目前我们无法提供退款服务。生成 AI 图像需要大量 GPU 计算资源，这些基础设施费用是按使用量计费的。上游服务提供商不会退还这一部分费用，因此如果广泛提供退款，服务本身在经济上将难以为继。\n\n当你注册并开始使用 HomeDesignPro AI 时，就表示你同意放弃常规的退款权利，以换取对产品和 AI 生成功能的即时访问。"
+      },
+      {
+        "id": "cancel-subscription",
+        "question": "如何取消我的订阅？",
+        "answer": "你可以随时取消 HomeDesignPro AI 订阅：\n\n1. 已登录账号时：\n- 点击顶部导航栏中的 Billing。\n- 系统会将你带到 Stripe 结算门户，在那里可以取消订阅、切换套餐并下载发票。\n\n2. 未登录账号时：\n- 在 HomeDesignPro AI 主页登录框中输入邮箱，并通过收到的 magic link 登录。\n- 进入应用后，在右上角点击 Billing 管理订阅。\n\n3. 无法访问账号时：\n- 在主页顶部点击 Billing。\n- 输入你注册时使用的邮箱。Stripe 会向你发送一条通往 Customer Portal 的安全链接，你可以在那里面取消订阅、调整套餐并下载发票。"
+      },
+      {
+        "id": "months-free",
+        "question": "注册时如何获得 2 个月以上的免费使用？",
+        "answer": "如果你选择年付方案，与按月支付相比，HomeDesignPro AI 的年价格可节省超过 16%，相当于免费获得 2 个月或更多的使用时间。\n\n在结账时选择年度订阅即可。这种长期优惠价格是我们感谢你信任的方式，也让我们能投入更多资源持续改进产品。"
+      },
+      {
+        "id": "access-after-payment",
+        "question": "完成付款后我会立即获得 HomeDesignPro AI 的使用权限吗？",
+        "answer": "会的。付款成功处理后，你会立即收到一封自动发送的邮件，其中包含通往 HomeDesignPro AI 应用的安全登录链接。\n\n通过该链接，你可以马上开始创建第一批 AI 室内设计和虚拟房间改造方案。"
+      },
+      {
+        "id": "invoice",
+        "question": "我可以获得付款收据或发票吗？",
+        "answer": "当然可以。每次支付成功后，你都会自动收到来自 Stripe 的收据和发票邮件，每次订阅续费也会生成发票。\n\n如果需要再次下载某张具体发票：\n1. 打开 HomeDesignPro AI 应用，在右上角点击 Billing，或在网站的 Billing 页面登录你的账户。\n2. 系统会将你重定向到 Stripe 的 Customer Portal，你可以在其中查看和下载所有历史发票和收据，用于记录或报销。"
+      },
+      {
+        "id": "change-plan",
+        "question": "我可以升级或降级订阅套餐吗？",
+        "answer": "可以，你可以随时更改订阅计划。\n\n- 登录 HomeDesignPro AI。\n- 点击顶部导航中的 Billing。\n- 系统会将你跳转到 Stripe 结算门户或 Pricing 页面，在那里可以升级、降级，或在月付和年付之间切换。\n\n所有价格调整都会根据 Stripe 的按比例计费规则自动处理。"
+      },
+      {
+        "id": "commercial-use",
+        "question": "我可以将 HomeDesignPro AI 的设计用于商业项目吗？",
+        "answer": "总体而言，只要你遵守我们的使用条款和当地法规，HomeDesignPro AI 生成的渲染图可以用于多种专业和商业用途，例如客户演示、房产列表、Airbnb 房源照片、营销物料和社交媒体内容等。\n\n你需要自己确保这些图像适合你的具体项目，并在需要时作出相应披露（例如说明图片为虚拟布置效果）。如需完整细节和最新规则，请查阅我们服务条款中关于“商业使用”的部分。本常见问题仅供参考，不构成法律意见。"
+      }
+    ]
+  },
+
+
+  
+  "transformation": {
+    "title": "看看 AI 的改造效果",
+    "subtitle": "一个提示，演绎无限房源"
+  },
+  "cta": {
+    "title": "准备好改造你的房源了吗？",
+    "subtitle": "先享受 2 次免费转换。无需信用卡。"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

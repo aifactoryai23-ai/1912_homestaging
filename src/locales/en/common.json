@@ -1,0 +1,211 @@
+{
+  "loading": "Loading…",
+  "languageSwitcher": {
+    "label": "Language",
+    "english": "English",
+    "russian": "Русский",
+    "spanish": "Español",
+    "chinese": "中文",
+    "japanese": "日本語",
+    "korean": "한국어"
+  },
+  "buttons": {
+    "tryForFree": "Try for free",
+    "viewExamples": "View Examples",
+    "chat": "Chat with me",
+    "showSuccessToast": "🟢 Show success toast",
+    "showErrorToast": "🔴 Show error toast",
+    "download": "Download",
+    "regenerate": "Re-generate",
+    "close": "Close",
+    "cancel": "Cancel",
+    "signIn": "Sign in"
+  },
+  "layout": {
+    "tagline": "Pro staging in seconds",
+    "nav": {
+      "home": "Home",
+      "images": "Images",
+      "transform": "Transform",
+      "gallery": "Gallery",
+      "pricing": "Pricing",
+      "api": "API"
+    },
+    "footer": {
+      "description": "Transform any property photo into a polished, professionally staged listing in just a few seconds.",
+      "product": "Product",
+      "company": "Company",
+      "transform": "Transform photos",
+      "gallery": "Gallery",
+      "pricing": "Pricing",
+      "images": "Images",
+      "api": "API access",
+      "contact": "Contact",
+      "upgrade": "Upgrade to Pro",
+      "privacy": "Privacy policy",
+      "terms": "Terms of services",
+      "rights": "© {{year}} HomeDesignPro - Interior design AI app. All rights reserved. ALEKSANDRE MAKHARADZE, ID 01005027627"
+    }
+  },
+  "beforeAfter": {
+    "drag": "Drag the slider to compare",
+    "after": "✨ After AI Staging",
+    "before": "📸 Before",
+    "swipe": "👆 Swipe left or right to compare"
+  },
+  "toastTest": {
+    "title": "Toast test page",
+    "successTitle": "✅ Success toast",
+    "successMessage": "Everything is working perfectly!",
+    "errorTitle": "❌ Error toast",
+    "errorMessage": "Something went wrong."
+  },
+  "pricing": {
+    "label": "// Pricing",
+    "title": "Choose the plan that fits your needs",
+    "subtitle": "While others fight for your attention, we fight for your time.",
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "badge": "Most Popular",
+    "button": "Upgrade now →",
+    "plans": {
+      "monthly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro Individual",
+          "price": "$4.99",
+          "period": "month",
+          "description": "Perfect for solo designers and agents",
+          "icon": "crown",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "25 AI transformations / month", "highlight": true },
+            { "text": "Premium design templates" },
+            { "text": "HD image quality" },
+            { "text": "Priority support" },
+            { "text": "Realistic interiors" },
+            { "text": "Write your own design prompts" },
+            { "text": "Commercial use license" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro Agency",
+          "price": "$30",
+          "period": "month",
+          "description": "For agencies and professionals",
+          "icon": "zap",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "200 AI transformations / month", "highlight": true },
+            { "text": "Team collaboration tools" },
+            { "text": "Dedicated success manager" },
+            { "text": "API & white-label options" },
+            { "text": "✍️ Edit designs" },
+            { "text": "🎭 Virtual staging" },
+            { "text": "♻️ Upscale interiors" },
+            { "text": "🎨 Paint walls" },
+            { "text": "💡 Change lighting" },
+            { "text": "👱‍♀️ Add people" },
+            { "text": "🔍 Google Lens" },
+            { "text": "🪑 Add & remove furniture" }
+
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro Ultimate",
+          "price": "$120",
+          "period": "month",
+          "description": "For creative teams with large-scale projects and constant workflow",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "1000 AI transformations / month", "highlight": true },
+            { "text": "Advanced automation tools" },
+            { "text": "Early access to new features" },
+            { "text": "Extended API and white-label limits" },
+            { "text": "Photorealistic interiors" },
+            { "text": "Everything as in Pro Agency" },
+            { "text": "🍪 Dedicated rendering server" }
+          ]
+        }
+      ],
+      "yearly": [
+        {
+          "id": "pro_individual",
+          "name": "Pro Individual",
+          "price": "$49",
+          "period": "year",
+          "description": "Save 20% with annual billing",
+          "icon": "crown",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "300 AI transformations / year", "highlight": true },
+            { "text": "Premium design templates" },
+            { "text": "HD image quality" },
+            { "text": "Priority support" },
+            { "text": "Priority support" },
+            { "text": "Realistic interiors" },
+            { "text": "Write your own design prompts" },
+            { "text": "Commercial use license" }
+          ]
+        },
+        {
+          "id": "pro_agency",
+          "name": "Pro Agency",
+          "price": "$299",
+          "period": "year",
+          "description": "Ideal for busy creative teams",
+          "icon": "zap",
+          "popular": true,
+          "showPeriod": true,
+          "features": [
+            { "text": "2400 AI transformations / year", "highlight": true },
+            { "text": "Team collaboration tools" },
+            { "text": "Dedicated success manager" },
+            { "text": "API & white-label options" },
+            { "text": "✍️ Edit designs" },
+            { "text": "🎭 Virtual staging" },
+            { "text": "♻️ Upscale interiors" },
+            { "text": "🎨 Paint walls" },
+            { "text": "💡 Change lighting" },
+            { "text": "👱‍♀️ Add people" },
+            { "text": "🔍 Google Lens" },
+            { "text": "🪑 Add furniture" }
+
+          ]
+        },
+        {
+          "id": "pro_ultimate",
+          "name": "Pro Ultimate",
+          "price": "$1300",
+          "period": "year",
+          "description": "For creative teams with large-scale projects and constant workflow",
+          "icon": "rocket",
+          "popular": false,
+          "showPeriod": true,
+          "features": [
+            { "text": "12000 AI transformations / year", "highlight": true },
+            { "text": "Advanced automation tools" },
+            { "text": "Early access to new features" },
+            { "text": "Extended API and white-label limits" },
+            { "text": "Photorealistic interiors" },
+            { "text": "Everything as in Pro Agency" },
+            { "text": "🍪 Dedicated rendering server" }
+          ]
+        }
+      ]
+    }
+  }
+}
+
+
+
+

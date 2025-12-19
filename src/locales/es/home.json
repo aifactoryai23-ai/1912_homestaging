@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "title": "Aplicación de escenografía con IA | Vende y alquila propiedades más rápido con diseño virtual",
+    "description": "Aplicación de escenografía para el hogar impulsada por IA para vendedores particulares, anfitriones de Airbnb y propietarios DIY. Mejora instantáneamente fotos de propiedades, elimina el desorden y crea imágenes inmobiliarias sorprendentes para vender o alquilar más rápido.",
+    "keywords": "escenografía con IA, escenografía virtual, mejora de fotos inmobiliarias, IA para fotos de propiedades, optimización de anuncios, mejora de fotos de Airbnb, vendedor de casa DIY, vender casa más rápido",
+    "ogTitle": "Aplicación de escenografía con IA | Vende y alquila más rápido",
+    "ogDescription": "Transforma fotos de propiedades con IA. Elimina el desorden, mejora la iluminación y escenifica interiores virtualmente en segundos.",
+    "ogImage": "https://homedesignpro.ai/homedesignpro_logo.png"
+  },
+  "hero": {
+    "titlePrefix": "Rediseñar la propiedad,",
+    "titleHighlight": "Vende más rápido, ahorra tiempo",
+    "description": "Convierte cualquier foto interior o exterior en un anuncio impresionante y profesional en segundos. Sin reformas. Sin costos de diseñador. Solo escenografía con IA.",
+    "freeTransformations": "2 transformaciones gratis",
+    "noCardRequired": "Obtén tus primeros rediseños en menos de un minuto"
+  },
+  "benefits": {
+    "title": "App Pro de escenografía. Monta tu anuncio con un clic, véndelo en una semana",
+    "subtitle": "<mark>Escenografía profesional sin espera ni costos</mark>",
+    "items": [
+      {
+        "id": "instantGlow",
+        "icon": "zap",
+        "title": "Brillo instantáneo para tu hogar",
+        "description": "Convierte habitaciones desordenadas en anuncios dignos de revista al instante — sin diseñadores."
+      },
+      {
+        "id": "magicWand",
+        "icon": "wand",
+        "title": "Varita mágica de IA",
+        "description": "Elimina automáticamente el desorden, mejora la iluminación y rediseña cualquier habitación con un solo clic."
+      },
+      {
+        "id": "sellFaster",
+        "icon": "spotlight",
+        "title": "Vende viviendas más rápido",
+        "description": "Deja de esperar meses — las casas escenificadas se venden un 40% más rápido."
+      }
+    ]
+  },
+  "priceList": {
+    "title": "LISTA DE PRECIOS",
+    "subtitle": "<mark>para quienes no usan la app InteriorDesign</mark>",
+    "items": [
+      {
+        "id": "ai",
+        "text": "La IA lo hace todo .......... $5",
+        "extra": "+ tiempo libre para ti"
+      },
+      {
+        "id": "yourself",
+        "text": "Lo haces tú mismo ................. $500",
+        "extra": "+ estrés"
+      },
+      {
+        "id": "designer1",
+        "text": "Contratas a un diseñador ................... $1500"
+      },
+      {
+        "id": "designerWait",
+        "text": "Contratas a un diseñador, él espera ........ $2500"
+      },
+      {
+        "id": "designerDisagree",
+        "text": "Contratas a un diseñador, no estás de acuerdo ..... $4000"
+      },
+      {
+        "id": "redesign",
+        "text": "Vuelves a diseñar tras comentarios ..... $6000",
+        "extra": "+ lágrimas"
+      },
+      {
+        "id": "again",
+        "text": "Lo haces todo una y otra vez ..... $8000",
+        "extra": "+ lágrimas"
+      }
+    ]
+  },
+
+      "trainingExample": {
+      "title": "Toma una foto y rediseña tu interior en segundos con IA"
+  },
+
+    "videoFeature": {
+      "title": "Transforma espacios vacíos en interiores impresionantes",
+      "paragraph1": "Empieza con una habitación completamente vacía o un espacio en obra y mira cómo HomeDesignPro.ai lo transforma paso a paso.",
+      "paragraph2": "Añade papel tapiz, suelos, muebles, iluminación e incluso personas para dar vida a tu espacio. De paredes desnudas a un interior totalmente amueblado y lleno de ambiente. ¡Y al final puedes convertirlo en un video de antes y después como este!"
+    
+  },
+
+    "sketchFeature": {
+    "title": "Transforma tus bocetos y modelos de SketchUp en renders fotorrealistas",
+    "paragraph1": "Con la app HomeDesignPro puedes convertir rápidamente bocetos sencillos de diseño de interiores en renders fotorrealistas. Solo tienes que hacer un borrador de tu habitación, subirlo a HomeDesignPro AI y, en unos 20 segundos, obtendrás una imagen realista de cómo se verá en la vida real. Utiliza estos renders de interiores generados con IA para mostrárselos a tus clientes y ayudarles a imaginar mejor y aprobar tu diseño.",
+    "paragraph2": "HomeDesignPro AI también funciona con SketchUp. Solo tienes que hacer una captura de pantalla de tu wireframe básico de SketchUp o de tu modelo 3D, elegir el modo SketchUp y la app lo convertirá en un render fotorrealista de alta resolución. Así, tus diseños de SketchUp parecerán fotos reales de interiores en cuestión de segundos."
+  },
+
+  "perfectFor": {
+    "title": "Ideal para",
+    "items": [
+      {
+        "id": "privateSellers",
+        "title": "Propietarios que venden su hogar por su cuenta",
+        "desc1": "<mark>Prepara fácilmente las fotos de tu casa para los anuncios en línea</mark> — sin agentes ni escenografías caras.",
+        "desc2": "Sube tus fotos, describe qué quieres cambiar y deja que la IA elimine el desorden, ilumine y restile tus habitaciones al instante."
+      },
+      {
+        "id": "marketplaces",
+        "title": "Vendedores DIY en portales inmobiliarios",
+        "desc1": "Haz que tu propiedad destaque entre miles de anuncios.",
+        "desc2": "Aunque vendas tu casa por tu cuenta, <mark>la escenografía virtual con IA transforma fotos normales en imágenes profesionales dignas de revista</mark>."
+      },
+      {
+        "id": "rentals",
+        "title": "Anfitriones de alquileres temporales (Airbnb, Booking, Hotels, Cian, Avito, Trivago, Expedia, Agoda)",
+        "desc1": "Consigue más reservas con fotos impactantes y bien escenificadas.",
+        "desc2": "<mark>La escenografía con IA elimina el desorden, ilumina y estiliza interiores</mark> — haciendo que tu propiedad se vea acogedora, cálida y lista para los huéspedes."
+      },
+      {
+        "id": "movingFamilies",
+        "title": "Familias que se preparan para mudarse",
+        "desc1": "Muestra el potencial completo de tu hogar antes de mudarte.",
+        "desc2": "Aunque tus habitaciones estén vacías o llenas de cajas, <mark>la escenografía con IA puede amueblarlas y decorarlas virtualmente</mark> — ayudando a los compradores a imaginarse viviendo allí."
+      },
+      {
+        "id": "afterRenovation",
+        "title": "Propietarios después de una reforma o redecoración",
+        "desc1": "Destaca los resultados de tu reforma con imágenes escenificadas profesionalmente.",
+        "desc2": "Usa la IA <mark>para visualizar tu espacio en estilos</mark> — como escandinavo, moderno o minimalista — y haz que tus fotos destaquen."
+      },
+      {
+        "id": "detailedDesigner",
+        "title": "El diseñador de interiores con IA más detallado",
+        "desc1": "<mark>Interior AI crea interiores con un nivel de detalle increíble</mark> gracias a las tecnologías más recientes en IA generativa.",
+        "desc2": "Mejoramos constantemente el modelo de IA para que los resultados sean aún más realistas y vivos."
+      }
+    ]
+  },
+
+  "gardenStagingSection": {
+    "title": "Diseño de jardines con IA: crea paisajismo y espacios exteriores para bienes raíces",
+  
+    "block1": {
+      "intro": "HomeDesignPro te ayuda a rediseñar espacios exteriores y a amueblar virtualmente viviendas vacías con inteligencia artificial. Convierte una simple foto de tu jardín, patio o salón en un diseño profesional o en un interior completamente amueblado en cuestión de segundos.\n\nCon HomeDesignPro puedes diseñar jardines, patios y zonas de estar exteriores a partir de una sola foto. Solo tienes que subir una imagen de tu espacio exterior, elegir el modo Outdoor Design y HomeDesignPro generará un nuevo diseño paisajístico con plantas, flores, árboles, senderos y zonas de descanso.\n\nEl diseñador exterior con IA te ayuda a visualizar la renovación del jardín, el diseño de la terraza o el patio, e incluso ideas para jardines pequeños antes de gastar dinero en plantas y materiales reales."
+    },
+  
+    "block2": {
+      "title": "Home staging virtual con IA para viviendas vacías y anuncios inmobiliarios",
+      "intro": "El home staging virtual con IA hace que las viviendas vacías parezcan completamente amuebladas y listas para habitar en las fotos de los anuncios. Las propiedades con home staging virtual se venden hasta un 87% más rápido y por alrededor de un 15% más que las viviendas vacías. En promedio, esto puede significar unos 70.000 dólares más para el vendedor o aproximadamente 3.500 dólares extra de comisión para el agente inmobiliario por operación.\n\nUn agente que vende unas 10 propiedades al año puede ganar hasta 35.000 dólares adicionales utilizando el home staging virtual. Con el plan Pro de HomeDesignPro puedes crear hasta 1.000 habitaciones con home staging virtual al mes con la función Virtual Staging AI por solo 299 dólares al año, una solución muy rentable para mejorar las fotos de los anuncios y aumentar las conversiones."
+    }
+  },
+
+  
+  "aiInteriorDesignerSection": {
+    "title": "Diseñador de interiores con IA de alta definición para habitaciones y hogares realistas",
+    "description": "La app HomeDesignPro es una avanzada herramienta de diseño de interiores con IA que crea proyectos de habitaciones y hogares muy detallados y realistas. Gracias a la última tecnología de generación de imágenes con IA en alta resolución, te ayuda a visualizar ideas de decoración, probar diferentes distribuciones y explorar varios estilos para cualquier espacio. Además, mejoramos constantemente el modelo para ofrecer resultados de diseño aún mejores.",
+    "cards": {
+      "sketch1": "Vista general del interior",
+      "sketch2": "Acercamos la composición",
+      "sketch3": "Foco en los detalles de la decoración",
+      "sketch4": "Observamos cada detalle"
+    }
+  },
+
+
+  "styles": {
+    "title": "Elige tu estilo",
+    "subtitle": "Del minimalismo moderno a la calidez acogedora — crea un estilo que se adapte a tu propiedad.",
+    "note": "Fotografía, las 4 en fila, de Nicole Franzen - ¡es genial!",
+    "items": [
+      { "id": "modern", "name": "Moderno" },
+      { "id": "scandinavian", "name": "Escandinavo" },
+      { "id": "minimal", "name": "Minimalista" },
+      { "id": "cozy", "name": "Acogedor" }
+    ]
+  },
+
+
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "id": "how-it-works",
+        "question": "¿Cómo funciona el diseñador de interiores de HomeDesignPro AI?",
+        "answer": "HomeDesignPro AI es una herramienta online de diseño de interiores con IA que convierte una sola foto en una renovación completa de la habitación.\n\nSube una foto de tu habitación actual, elige el tipo de estancia (salón, dormitorio, cocina, etc.) y un estilo de interior. Nuestra IA analiza el espacio, la distribución y la iluminación y, en unos 15 segundos, genera imágenes fotorrealistas de un interior rediseñado según tus preferencias.\n\nPuedes usar el servicio desde cualquier portátil, tableta o teléfono y obtener ideas de diseño de aspecto profesional sin contratar a un diseñador tradicional por miles de dólares. Tras registrarte, desbloqueas el estudio de HomeDesignPro AI con más de 30 tipos de habitaciones y más de 50 estilos de interior."
+      },
+      {
+        "id": "design-modes",
+        "question": "¿Cómo funcionan los distintos modos de diseño de HomeDesignPro AI?",
+        "answer": "HomeDesignPro AI ofrece varios modos de diseño, cada uno optimizado para un caso de uso distinto:\n\n- Interior Design con visión 3D: mantiene la estructura actual de tu habitación (paredes, ventanas, muebles principales) y cambia sobre todo el estilo, los colores y la decoración. Ideal para previsualizaciones realistas de «antes y después».\n- Interior Design (foto 2D): similar al modo 3D, pero permite que la IA manipule el espacio con más libertad. Puede cambiar la posición de los muebles y algunos elementos de la distribución.\n- Virtual Staging AI: pensado para amueblar virtualmente habitaciones vacías. Perfecto para anuncios inmobiliarios, anfitriones de Airbnb y promotores que necesitan un montaje rápido.\n- Freestyle: no necesita foto de entrada. La IA genera conceptos de interior desde cero a partir del tipo de habitación y el estilo que elijas.\n- Sketch2Image: convierte tus bocetos de interior (a mano o digitales) en renderizados detallados y fotorrealistas.\n- Modo SketchUp: sube una captura de pantalla de tu modelo de SketchUp y la IA la transformará en un render de interior realista y de alta calidad."
+      },
+      {
+        "id": "virtual-staging",
+        "question": "¿Puedo hacer staging virtual de propiedades con HomeDesignPro AI?",
+        "answer": "Sí. HomeDesignPro AI incluye un modo específico de Virtual Staging AI para staging virtual y visualización de habitaciones vacías.\n\nSube una foto de un espacio sin amueblar o parcialmente amueblado, selecciona el tipo de habitación y el estilo de interior deseado, elige Virtual Staging AI en el menú Mode y haz clic en Create. El sistema mantendrá la arquitectura existente (paredes, ventanas, suelo) y añadirá automáticamente muebles, decoración e iluminación adecuados."
+      },
+      {
+        "id": "payment-not-accepted",
+        "question": "¿Por qué no se acepta mi método de pago al registrarme?",
+        "answer": "Si tu pago se rechaza al suscribirte a HomeDesignPro AI, normalmente se debe a comprobaciones de seguridad. Prueba lo siguiente:\n\n1. Desactiva cualquier VPN o proxy que estés utilizando y vuelve a intentarlo.\n2. Comprueba que el nombre del titular, el código CVC/CVV y el código postal coinciden exactamente con los datos registrados en tu banco.\n3. El país de la tarjeta debe coincidir con el país de facturación.\n4. Asegúrate de tener activado 3D Secure (o un método de autenticación similar) y completa todos los pasos de verificación.\n\nEstas medidas nos ayudan a prevenir el fraude y a mantener seguros los pagos de todos los usuarios."
+      },
+      {
+        "id": "photo-types",
+        "question": "¿Qué tipo de fotos debo subir de mi interior actual?",
+        "answer": "Para obtener los mejores resultados con la IA, sigue estas pautas de fotografía:\n\n- Haz las fotos desde un ángulo frontal, mirando hacia una pared principal, ventana o punto focal de la habitación.\n- Evita ángulos extremos o tomas muy bajas/altas. Las fotos en ángulo pueden funcionar, pero las fotos rectas suelen dar mejores resultados.\n- Asegúrate de que la imagen sea nítida, esté enfocada y bien iluminada (la luz natural es lo ideal).\n- Intenta capturar toda la habitación o una gran parte de ella, no solo primeros planos de los muebles.\n\nCuanto mejor sea la foto de entrada, más precisos y realistas serán los renders de HomeDesignPro AI."
+      },
+      {
+        "id": "photo-formats",
+        "question": "¿Qué formatos de archivo de fotos admite HomeDesignPro AI?",
+        "answer": "Actualmente HomeDesignPro AI acepta los siguientes formatos de imagen:\n\n- JPG / JPEG\n- PNG\n- WebP\n- AVIF\n\nEl formato HEIC (habitual en iPhone) no está soportado de momento. Si tus imágenes están en HEIC, conviértelas a JPG o PNG antes de subirlas. En macOS puedes hacerlo con clic derecho en el archivo → Quick Actions → Convert Image → elige JPG."
+      },
+      {
+        "id": "generation-time",
+        "question": "¿Cuánto tarda en crearse un diseño de interiores con IA?",
+        "answer": "Con la velocidad de procesamiento actual, HomeDesignPro AI suele generar un nuevo diseño de interior en unos 15 segundos desde que haces clic en Create."
+      },
+      {
+        "id": "photo-usage",
+        "question": "¿Qué haréis con las fotos de mi interior?",
+        "answer": "Usamos tus fotos solo para generar imágenes de diseño de interiores con IA en tu cuenta.\n\n- No utilizamos tus imágenes para entrenar nuestros modelos.\n- Tus fotos y renders son privados y solo tú puedes verlos dentro de tu cuenta.\n- Tus datos se almacenan de forma segura y están protegidos frente a accesos no autorizados.\n\nEn resumen: tus imágenes se usan exclusivamente para crear tus diseños en HomeDesignPro AI y no se comparten ni se reutilizan en otros lugares."
+      },
+      {
+        "id": "who-built",
+        "question": "¿Quién creó HomeDesignPro AI y quién está detrás del proyecto?",
+        "answer": "HomeDesignPro AI fue creado por Georgiy Avaliani (@geoava), ingeniero de machine learning y emprendedor. La plataforma se construye y mantiene de forma independiente, sin un gran equipo corporativo: básicamente es Georgiy trabajando desde su portátil, apoyado por mucha automatización con IA que funciona en segundo plano."
+      },
+      {
+        "id": "match-current-interior",
+        "question": "¿Hasta qué punto el rediseño con IA se parecerá a mi casa real y a su construcción?",
+        "answer": "La fidelidad con la que HomeDesignPro AI reproduce tu interior real depende sobre todo de:\n\n1. La calidad de la foto: imágenes claras, de alta resolución y con buena iluminación ayudan a la IA a entender mejor las proporciones, materiales y distribución de la habitación.\n2. El modo de diseño elegido: algunos modos son más experimentales y otros están optimizados para el realismo.\n\nPor ejemplo, el modo Creative (cuando está disponible) ofrece ideas más atrevidas e imaginativas que pueden no seguir estrictamente la construcción real, mientras que Interior Design con visión 3D se ajusta de cerca a la estructura arquitectónica existente y a los elementos principales, actualizando principalmente el estilo, la paleta de colores y la decoración.\n\nMejoramos continuamente nuestros modelos para que las renovaciones de habitaciones con IA sean cada vez más precisas y realistas."
+      },
+      {
+        "id": "artifacts",
+        "question": "¿Tendrán mis diseños de interiores con IA artefactos o fallos visuales?",
+        "answer": "Ocasionalmente sí. Cualquier aplicación que use generación de imágenes con IA puede producir artefactos visuales. Según la foto de entrada y el modo de diseño, puede que veas, por ejemplo:\n\n- Muebles con proporciones extrañas (sillas con pocas patas, etc.).\n- Pequeñas inconsistencias en sombras o reflejos.\n- Detalles constructivos menores que no coinciden del todo con la realidad.\n\nPor nuestra experiencia, alrededor del 90% de los renders son suficientemente buenos para un uso práctico, y aproximadamente un 10% resulta excepcionalmente bueno.\n\nHomeDesignPro AI también incluye un editor integrado que te permite borrar artefactos con un pincel y regenerar zonas concretas de la imagen. Seguimos trabajando para reducirlos aún más, por ejemplo detectando automáticamente los artefactos y re-renderizando partes de la imagen. Aun así, el sistema no es perfecto y no pretendemos afirmar lo contrario."
+      },
+      {
+        "id": "payment-secure",
+        "question": "¿Es seguro vuestro procesador de pagos?",
+        "answer": "Sí. HomeDesignPro AI utiliza BOG y Tochka, dos instituciones financieras regionales líderes, para todas las transacciones.\n\nNo almacenamos los datos completos de tu tarjeta en nuestros servidores.\nEstos bancos proporcionan cifrado y estándares de seguridad a nivel bancario.\nTodos los datos de tarjeta se gestionan y procesan directamente en los bancos, cumpliendo normativas estrictas del sector (como PCI DSS).\n\nEsta configuración ayuda a que tus pagos sean seguros y tus datos de facturación permanezcan protegidos."
+      },
+      {
+        "id": "payment-methods",
+        "question": "¿Qué métodos de pago aceptáis?",
+        "answer": "Puedes pagar HomeDesignPro AI con la mayoría de tarjetas de crédito y débito, incluyendo:\n\n- MasterCard\n- VISA\n- MIR\n- American Express\n\nNo aceptamos criptomonedas y, por ahora, no tenemos planes de añadirlas."
+      },
+      {
+        "id": "refund",
+        "question": "¿Puedo obtener un reembolso?",
+        "answer": "Lamentablemente no podemos ofrecer reembolsos. Generar imágenes con IA requiere una potencia de GPU considerable, y estos costes de infraestructura se pagan por uso. Nuestros proveedores no nos devuelven el dinero por el tiempo de procesamiento, por lo que ofrecer reembolsos haría que el servicio no fuera sostenible.\n\nAl registrarte y empezar a usar HomeDesignPro AI, aceptas renunciar a tu derecho estándar de reembolso a cambio de tener acceso inmediato al producto y a sus funciones de generación con IA."
+      },
+      {
+        "id": "cancel-subscription",
+        "question": "¿Cómo cancelo mi suscripción?",
+        "answer": "Puedes cancelar tu suscripción a HomeDesignPro AI en cualquier momento:\n\n1. Si has iniciado sesión:\n- Ve a la barra superior de navegación y haz clic en Billing.\n- Se abrirá el portal de facturación de Stripe, donde podrás cancelar tu suscripción, cambiar de plan y descargar facturas.\n\n2. Si no has iniciado sesión:\n- En la página principal de HomeDesignPro AI, introduce tu correo electrónico en el campo de acceso y sigue el enlace mágico (magic link) que recibirás.\n- Una vez dentro de la app, haz clic en Billing en la esquina superior derecha y gestiona tu suscripción.\n\n3. Si no puedes acceder a tu cuenta:\n- Haz clic en Billing en la parte superior de la página principal de HomeDesignPro AI.\n- Introduce el correo electrónico con el que te registraste. Stripe te enviará un enlace seguro al Customer Portal, donde podrás cancelar la suscripción, cambiar de plan y descargar facturas."
+      },
+      {
+        "id": "months-free",
+        "question": "¿Cómo consigo 2 o más meses gratis al registrarme?",
+        "answer": "Si eliges el plan anual, HomeDesignPro AI tiene un precio anual más de un 16% inferior que pagando mes a mes, lo que equivale a 2 o más meses gratis.\n\nSolo tienes que seleccionar la suscripción anual durante el proceso de pago. Esta tarifa reducida a largo plazo es nuestra forma de agradecer tu confianza y nos permite reinvertir más en mejorar el producto."
+      },
+      {
+        "id": "access-after-payment",
+        "question": "¿Obtengo acceso a HomeDesignPro AI inmediatamente después del pago?",
+        "answer": "Sí. Justo después de que tu pago se procese correctamente, recibirás un email automático con un enlace seguro de acceso a la app de HomeDesignPro AI.\n\nDesde ahí podrás empezar a crear tus primeros diseños de interiores con IA y renovaciones virtuales de habitaciones de inmediato."
+      },
+      {
+        "id": "invoice",
+        "question": "¿Puedo obtener un recibo o factura por mis pagos?",
+        "answer": "Sí, por supuesto. Tras cada pago correcto, recibirás automáticamente por email un recibo y una factura de Stripe, y también se genera una factura en cada renovación.\n\nSi necesitas volver a descargar una factura concreta:\n1. Abre la app de HomeDesignPro AI y haz clic en Billing en la esquina superior derecha, o entra en la página Billing de la web e inicia sesión con tu correo.\n2. Se te redirigirá al Customer Portal de Stripe, donde podrás ver y descargar todas tus facturas y recibos anteriores para tus registros o tu contabilidad."
+      },
+      {
+        "id": "change-plan",
+        "question": "¿Puedo cambiar, ampliar o reducir mi plan de suscripción?",
+        "answer": "Sí, puedes cambiar de plan en cualquier momento.\n\n- Inicia sesión en HomeDesignPro AI.\n- Haz clic en Billing en la barra superior.\n- Se abrirá el portal de facturación de Stripe o la página de Pricing, donde podrás actualizar o reducir el plan y alternar entre pago mensual y anual.\n\nCualquier ajuste de precio se gestiona automáticamente según las reglas de prorrateo de Stripe."
+      },
+      {
+        "id": "commercial-use",
+        "question": "¿Puedo usar los diseños de HomeDesignPro AI en proyectos comerciales?",
+        "answer": "En general, los renders de HomeDesignPro AI pueden utilizarse para una amplia variedad de fines profesionales y comerciales, como presentaciones a clientes, anuncios inmobiliarios, fotos de Airbnb, materiales de marketing y redes sociales, siempre que cumplas nuestros Términos de uso y la normativa local.\n\nTú sigues siendo responsable de asegurarte de que las imágenes sean adecuadas para tu proyecto concreto y de incluir cualquier aviso necesario (por ejemplo, aclarar que se trata de una imagen virtualmente amueblada). Para todos los detalles y las normas actualizadas, consulta la sección de uso comercial de nuestros Términos de servicio. Este FAQ se ofrece solo como referencia y no constituye asesoramiento legal."
+      }
+    ]
+  },
+
+
+
+  
+  "transformation": {
+    "title": "Mira la transformación con IA",
+    "subtitle": "Un prompt, infinitas propiedades"
+  },
+  "cta": {
+    "title": "¿Listo para rediseñar tus anuncios?",
+    "subtitle": "Comienza con 2 transformaciones gratis. No se requiere tarjeta."
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

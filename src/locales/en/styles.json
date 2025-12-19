@@ -1,0 +1,228 @@
+{
+  "catalog": {
+    "modern": {
+      "name": "Modern 🏙",
+      "description": "Modern interior design is defined by clean lines, simple geometric forms, and a focus on function over decoration. Neutral colors and sleek furniture create a calm, uncluttered look ideal for contemporary homes."
+    },
+    "neoclassic": {
+      "name": "Neoclassic 🏺",
+      "description": "Neoclassical design blends classical elegance with modern simplicity. Symmetrical layouts, wall panels, soft muted colors, and graceful furniture lines create a refined, timeless interior. Four Seasons Cabo San Lucas"
+    },
+    "scandinavian": {
+      "name": "Scandinavian 🌲",
+      "description": "Scandinavian interiors combine functionality, minimalism, and a connection to nature. Light wood, white walls, and soft textiles create a bright, cozy atmosphere that feels calm and welcoming."
+    },
+    "biophilic": {
+      "name": "Biophilic 🌿",
+      "description": "Biophilic design integrates nature directly into the interior. Large windows, plants, natural wood, and stone surfaces improve well-being and strengthen the connection to the outdoors."
+    },
+    "luxury": {
+      "name": "Luxury 💎",
+      "description": "Luxury style interiors highlight high-end materials, sophisticated design, and meticulous attention to detail. Marble, natural stone, fine woods, and rich fabrics create a premium, hotel-like atmosphere. Cheval Court - chamber luxury in the center of Saint Petersburg"
+    },
+    "airbnb": {
+      "name": "Airbnb 🏡",
+      "description": "The Airbnb style is all about creating a welcoming, versatile interior that appeals to many different guests. Neutral colors, comfortable furniture, and practical layouts make the space easy to understand and use. Big Sur, California"
+    },
+    "mediterranean": {
+      "name": "Mediterranean 🌊",
+      "description": "Mediterranean interior design is inspired by sunny coastal regions, terracotta tones, and whitewashed walls. Natural stone, rustic wood, and blue accents create a relaxed, vacation-like atmosphere."
+    },
+    "minimalist": {
+      "name": "Minimalist ⚪",
+      "description": "Minimalist interiors strip away everything unnecessary, leaving only essential, functional pieces. A limited color palette and clean surfaces create a sense of order, clarity, and visual calm. Photography by Samuel Holzner."
+    },
+    "simple": {
+      "name": "Simple 📏",
+      "description": "The Simple style focuses on practical layouts, basic furniture, and minimal decoration. Neutral colors and clear organization keep the home easy to maintain and pleasant for everyday living. Photography by Albert Vecerka"
+    },
+    "traditional": {
+      "name": "Traditional 🏛",
+      "description": "Traditional interior design draws on classic European decor, symmetry, and refined details. Rich woods, patterned textiles, and timeless furniture create a warm, established, and elegant atmosphere."
+    },
+    "art-deco": {
+      "name": "Art deco 🎭",
+      "description": "Art deco style is bold and glamorous, defined by geometric patterns, glossy finishes, and rich jewel tones. Metallic accents, mirrors, and sculptural furniture bring a vintage Hollywood feel to the interior.New York town house a wallpaper mural based on Wassily Kandinsky’s 1935 painting Deux points verts"
+    },
+    "parisian": {
+      "name": "Parisian 🗼",
+      "description": "Parisian interiors blend historic architectural details with relaxed, modern touches. Herringbone floors, tall windows, and moldings meet contemporary furniture and art for a chic, effortless look. Parisian Pied-à-Terre, living-room by Olga Ashby"
+    },
+    "modern-boho": {
+      "name": "Modern boho 🧺",
+      "description": "Modern boho style combines clean, modern lines with relaxed bohemian decor. A neutral base is layered with woven textures, patterned rugs, cushions, and plants to create a cozy, creative space."
+    },
+    "bali": {
+      "name": "Bali 🌴",
+      "description": "Bali-inspired interiors bring the atmosphere of tropical retreats into the home. Natural materials like rattan, bamboo, and teak, plus soft neutrals and greenery, create a tranquil, resort-like feel."
+    },
+    "contemporary": {
+      "name": "Contemporary 🆕",
+      "description": "Contemporary style reflects current design trends with simple forms, open space, and layered lighting. Soft neutrals and a few bold accents keep the interior fresh, flexible, and easy to update. The New Zealand Design Pavilion."
+    },
+    "midcentury-modern": {
+      "name": "Midcentury modern 📻",
+      "description": "Midcentury modern style is inspired by 1950s and 1960s design. Simple silhouettes, tapered legs, warm wood, and retro colors like mustard and teal give the interior a cool vintage character. A SoCal Home With Mid-century Influences."
+    },
+    "zen": {
+      "name": "Zen 🧘",
+      "description": "Zen interiors are designed to promote calm, balance, and mindfulness. Natural materials, earthy colors, and minimal decor create a serene environment that supports relaxation and clarity. Zen house by BYLA Landscape Architects."
+    },
+    "boho-chic": {
+      "name": "Boho-chic 🌼",
+      "description": "Boho-chic style mixes bohemian freedom with a more curated, fashionable touch. Colorful textiles, layered patterns, and handmade pieces are balanced with modern elements for a stylish, lived-in look. PLANTA Brentwood by ICrave - a refined boho-chic vibe."
+    },
+    "industrial": {
+      "name": "Industrial 🧱",
+      "description": "Industrial interiors take inspiration from converted factories and lofts. Exposed brick, concrete, metal beams, and visible pipes create a raw, urban look, softened with simple, sturdy furniture."
+    },
+    "tropical": {
+      "name": "Tropical 🌴",
+      "description": "Tropical style interiors are vibrant and full of life. Botanical prints, natural wood, woven textures, and lots of plants bring the feeling of a jungle or island resort indoors. Photography: Kris Tamburello"
+    },
+    "gaming-room": {
+      "name": "Gaming room 🎮",
+      "description": "Gaming room design focuses on comfort, ergonomics, and immersion. Adjustable chairs, large desks, multiple screens, and LED lighting create a dedicated space for gaming and streaming. Photography: Steve Hall"
+    },
+    "hollywood-glam": {
+      "name": "Hollywood glam 🎬",
+      "description": "Hollywood glam style brings cinematic drama and luxury into the home. Plush fabrics, mirrors, metallic finishes, and statement chandeliers create a glamorous, red-carpet ambiance."
+    },
+    "japanese-design": {
+      "name": "Japanese design 🎎",
+      "description": "Japanese interior design emphasizes simplicity, natural materials, and order. Low furniture, sliding screens, warm wood, and clean lines create a minimal, peaceful living environment."
+    },
+    "vintage": {
+      "name": "Vintage 📼",
+      "description": "Vintage interiors celebrate carefully selected furniture and decor from past decades. Nostalgic accessories and soft, slightly faded colors create a warm, story-rich atmosphere."
+    },
+    "farmhouse": {
+      "name": "Farmhouse 🌾",
+      "description": "Farmhouse style combines rustic countryside charm with modern comfort. Exposed wood, farmhouse tables, simple textiles, and neutral colors create a cozy, family-friendly home."
+    },
+    "futuristic": {
+      "name": "Futuristic 🚀",
+      "description": "Futuristic interiors use innovative shapes, smart technology, and bold design. Glossy surfaces, integrated lighting, and metallic accents give rooms a high-tech, sci-fi vibe."
+    },
+    "art-nouveau": {
+      "name": "Art nouveau 🎨",
+      "description": "Art nouveau style is known for flowing lines, organic shapes, and decorative patterns inspired by nature. Curved furniture and handcrafted details create a romantic, artistic atmosphere."
+    },
+    "eco-friendly": {
+      "name": "Eco-friendly ♻️",
+      "description": "Eco-friendly interior design focuses on sustainability and health. Natural, recycled, and low-toxic materials, plus energy-efficient lighting, support an environmentally conscious lifestyle."
+    },
+    "retro": {
+      "name": "Retro 📺",
+      "description": "Retro style interiors celebrate the playful colors and shapes of the 50s, 60s, and 70s. Rounded furniture, graphic patterns, and bold hues create a fun, nostalgic vibe. The pool at The Eve Hotel with retro-style umbrellas and orange cabanas."
+    },
+    "coastal": {
+      "name": "Coastal 🐚",
+      "description": "Coastal interior design captures the breezy feel of life by the sea. White walls, light wood, woven textures, and soft blues and sands keep rooms bright and relaxing. Beach Escape By AMMOR Architecture"
+    },
+    "retro-futuristic": {
+      "name": "Retro futuristic 🛰",
+      "description": "Retro futuristic style mixes mid-century optimism with sci-fi elements. Curved furniture, chrome details, neon accents, and space-age graphics create a playful, imaginative look. Shanghai’s GRNDCNTRL"
+    },
+    "eclectic": {
+      "name": "Eclectic 🧩",
+      "description": "Eclectic interiors combine different styles, colors, and eras in one cohesive space. Repeated colors or materials help unify the mix, creating a rich, personal environment full of character."
+    },
+    "french": {
+      "name": "French 🇫🇷",
+      "description": "French style interiors are elegant and softly luxurious. Decorative moldings, parquet floors, refined furniture, and light colors create a stylish yet comfortable atmosphere."
+    },
+    "rustic": {
+      "name": "Rustic 🌾",
+      "description": "Rustic design highlights the raw beauty of natural materials. Rough wood, stone, exposed beams, and earthy colors create the feeling of a cozy cabin or country retreat. Photography by James Silverman."
+    },
+    "bohemian": {
+      "name": "Bohemian 🕊",
+      "description": "Bohemian interiors are relaxed, artistic, and full of personality. Layered textiles, colorful cushions, patterned rugs, and global decor create a casual, collected look. Photo by Maria Orlova"
+    },
+    "shabby-chic": {
+      "name": "Shabby chic 🪞",
+      "description": "Shabby chic style combines romantic vintage charm with a soft, feminine palette. Distressed furniture, pastel colors, and floral prints create a light, nostalgic feel."
+    },
+    "sketch": {
+      "name": "Sketch ✏️",
+      "description": "Sketch-style interiors look graphic and artistic, as if drawn by hand. Bold outlines, monochrome palettes, and illustrative wall art give rooms a unique, conceptual feel."
+    },
+    "french-country": {
+      "name": "French country 🌻",
+      "description": "French country style brings the warmth of rural France into the home. Weathered wood, wrought iron, linen textiles, and floral or check patterns create a charming farmhouse look."
+    },
+    "christmas": {
+      "name": "Christmas 🎄",
+      "description": "A Christmas interior style transforms the home into a festive holiday setting. Evergreen decor, warm lights, and seasonal textiles in red, green, gold, and white create instant cheer."
+    },
+    "maximalist": {
+      "name": "Maximalist 🎨",
+      "description": "Maximalist design embraces bold color, pattern, and personality. Art-filled walls, layered textiles, and curated objects turn the space into a rich gallery of personal taste."
+    },
+    "nautical": {
+      "name": "Nautical ⚓",
+      "description": "Nautical interiors take inspiration from ships and seaside life. Blue and white stripes, rope details, anchors, and maritime artwork create a crisp, coastal look. Alfred Coffee Sails Into Marina Del Rey, design firm Studio Sucio"
+    },
+    "cottagecore": {
+      "name": "Cottagecore 🐑",
+      "description": "Cottagecore style romanticizes simple country living. Floral prints, handmade ceramics, wooden furniture, and soft pastels make rooms feel gentle, cozy, and comforting."
+    },
+    "baroque": {
+      "name": "Baroque 👑",
+      "description": "Baroque interiors are dramatic and ornate. Decorative moldings, gilded accents, large chandeliers, and rich fabrics create a palace-like impression with strong visual impact."
+    },
+    "tribal": {
+      "name": "Tribal 🪶",
+      "description": "Tribal style incorporates patterns, textures, and symbols from traditional cultures. Bold geometric prints, carved masks, woven baskets, and warm colors create an earthy, grounded feel."
+    },
+    "cyberpunk": {
+      "name": "Cyberpunk 🌐",
+      "description": "Cyberpunk interiors imagine a futuristic, neon-lit city. Dark walls, metal surfaces, exposed cables, and colorful LED lighting create a gritty, high-tech mood."
+    },
+    "gothic": {
+      "name": "Gothic 🕯",
+      "description": "Gothic style interiors are moody and dramatic, influenced by medieval architecture. Deep colors, pointed arches, ironwork, and heavy fabrics build a rich, mysterious atmosphere."
+    },
+    "surf-shack": {
+      "name": "Surf shack 🏄‍♂️",
+      "description": "Surf shack style captures the carefree spirit of a beach surf hut. Sun-bleached wood, woven chairs, surfboards as wall art, and ocean colors create a relaxed coastal vibe."
+    },
+    "soviet": {
+      "name": "Soviet 🧱",
+      "description": "Soviet-inspired interiors reference the utilitarian aesthetic of mid-20th-century Eastern Europe. Simple geometric furniture, plain walls, and muted colors create a stark, functional look."
+    },
+    "easter": {
+      "name": "Easter 🐣",
+      "description": "An Easter decor style brings fresh spring energy into the home. Pastel colors, floral arrangements, and motifs of eggs, bunnies, and chicks create a light, cheerful mood."
+    },
+    "chinese-new-year": {
+      "name": "Chinese New Year 🧧",
+      "description": "Chinese New Year decor fills the home with symbolic colors and festive details. Red and gold accents, lanterns, calligraphy, and zodiac motifs are used to attract luck and prosperity."
+    },
+    "post-apocalyptic": {
+      "name": "Post-apocalyptic ☢️",
+      "description": "Post-apocalyptic style imagines interiors in a world after a major disaster. Weathered materials, exposed concrete, rusted metal, and distressed furniture create a gritty, cinematic look. Object “Bunker-42” (“CHZ-293,” “GO-42”)"
+    },
+    "hot-pink": {
+      "name": "Hot pink 💗",
+      "description": "Hot pink interiors use bright neon pink as a bold statement color. On walls, furniture, or lighting, it adds energy and edge, especially against black, white, or neutral backgrounds. Photography by Futura."
+    },
+    "halloween": {
+      "name": "Halloween 🎃",
+      "description": "A Halloween interior style turns the home into a spooky, themed environment. Pumpkins, bats, spider webs, candles, and dark textiles create a fun, eerie atmosphere for autumn."
+    },
+    "vaporwave": {
+      "name": "Vaporwave 💾",
+      "description": "Vaporwave style is inspired by early digital culture and 80s–90s aesthetics. Pastel and neon colors, glitch art, statues, gradients, and grid patterns create a surreal, nostalgic digital world."
+    },
+    "medieval": {
+      "name": "Medieval 🏰",
+      "description": "Medieval interiors echo the design of old castles and fortresses. Stone walls, heavy wooden furniture, iron hardware, and candle-style lighting create a strong, historic atmosphere. Biblioteca Statale Oratoriana dei Girolamini in Naples."
+    },
+    "ski-chalet": {
+      "name": "Ski chalet ⛷️",
+      "description": "Ski chalet style brings the cozy feeling of a mountain lodge indoors. Warm wood, exposed beams, wool blankets, faux fur throws, and a central fireplace create a snug winter retreat. Ski Straight Into This Rustic-Chic Aspen Home Photography: Lisa Romerein; Styling: Helen Crowther."
+    }
+  }
+}
